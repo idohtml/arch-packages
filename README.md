@@ -1,7 +1,7 @@
-# My packages
+# My Arch Linux packages
 
 ```
-sudo pacman -S discord docker docker-compose wireshark-qt obs-studio firefox wmctrl evolution 
+sudo pacman -S discord docker docker-compose firefox 
 ```
 
 ```
@@ -20,9 +20,5 @@ cd .. && sudo rm -r yay
 ```
 
 ```
-yay -S spotify visual-studio-code-bin jetbrains-toolbox surfshark-gui-bin postman-bin arduino-ide-bin ulauncher slack-desktop notion-app mqtt-explorer balena-etcher rpi-imager zerotier-one brave-bin google-chrome timeshift ventoy-bin
-```
-
-```
-sudo systemctl enable zerotier-one.service && sudo systemctl start zerotier-one.service
+yay -S spotify visual-studio-code-bin jetbrains-toolbox postman-bin notion-app google-chrome timeshift
 ```
